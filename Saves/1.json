@@ -1,0 +1,305 @@
+{
+  "Nodes": [
+    {
+      "Id": 0,
+      "Name": "node0",
+      "Armies": [],
+      "Events": [
+        "Fog event"
+      ]
+    },
+    {
+      "Id": 1,
+      "Name": "node1",
+      "Armies": [],
+      "Events": [
+        "Rebellion event"
+      ]
+    },
+    {
+      "Id": 2,
+      "Name": "node2",
+      "Armies": [],
+      "Events": []
+    },
+    {
+      "Id": 3,
+      "Name": "node3",
+      "Armies": [],
+      "Events": []
+    },
+    {
+      "Id": 4,
+      "Name": "node4",
+      "Armies": [],
+      "Events": [
+        "Change of mind event"
+      ]
+    }
+  ],
+  "Edges": [
+    {
+      "Id": 1,
+      "Name": "edge1",
+      "Node1": 3,
+      "Node2": 0,
+      "Armies": [
+        {
+          "Faction": "Isengard",
+          "Team": 1,
+          "Units": [
+            {
+              "Name": "Warg Rider",
+              "Strength": 20,
+              "Health": 26
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 31,
+              "Health": 33
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 28,
+              "Health": 25
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 30,
+              "Health": 26
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 26,
+              "Health": 24
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 23,
+              "Health": 20
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 32,
+              "Health": 26
+            }
+          ]
+        }
+      ],
+      "Events": []
+    },
+    {
+      "Id": 2,
+      "Name": "edge2",
+      "Node1": 3,
+      "Node2": 1,
+      "Armies": [
+        {
+          "Faction": "Mordor",
+          "Team": 1,
+          "Units": [
+            {
+              "Name": "Orc Warrior",
+              "Strength": 32,
+              "Health": 21
+            },
+            {
+              "Name": "Orc Pikeman",
+              "Strength": 33,
+              "Health": 29
+            },
+            {
+              "Name": "Haradrim Archer",
+              "Strength": 23,
+              "Health": 33
+            },
+            {
+              "Name": "Haradrim Archer",
+              "Strength": 29,
+              "Health": 23
+            },
+            {
+              "Name": "Orc Pikeman",
+              "Strength": 26,
+              "Health": 25
+            },
+            {
+              "Name": "Orc Warrior",
+              "Strength": 30,
+              "Health": 29
+            },
+            {
+              "Name": "Orc Warrior",
+              "Strength": 29,
+              "Health": 23
+            },
+            {
+              "Name": "Orc Pikeman",
+              "Strength": 31,
+              "Health": 34
+            },
+            {
+              "Name": "Orc Warrior",
+              "Strength": 25,
+              "Health": 25
+            },
+            {
+              "Name": "Haradrim Archer",
+              "Strength": 27,
+              "Health": 21
+            }
+          ]
+        }
+      ],
+      "Events": []
+    },
+    {
+      "Id": 3,
+      "Name": "edge3",
+      "Node1": 0,
+      "Node2": 2,
+      "Armies": [
+        {
+          "Faction": "Men",
+          "Team": 0,
+          "Units": [
+            {
+              "Name": "Gondor Soldier",
+              "Strength": 28,
+              "Health": 34
+            },
+            {
+              "Name": "Tower Guard",
+              "Strength": 28,
+              "Health": 32
+            },
+            {
+              "Name": "Ithilien Ranger",
+              "Strength": 24,
+              "Health": 20
+            },
+            {
+              "Name": "Ithilien Ranger",
+              "Strength": 29,
+              "Health": 27
+            },
+            {
+              "Name": "Tower Guard",
+              "Strength": 23,
+              "Health": 21
+            },
+            {
+              "Name": "Gondor Soldier",
+              "Strength": 20,
+              "Health": 27
+            },
+            {
+              "Name": "Tower Guard",
+              "Strength": 29,
+              "Health": 22
+            },
+            {
+              "Name": "Ithilien Ranger",
+              "Strength": 28,
+              "Health": 22
+            },
+            {
+              "Name": "Ithilien Ranger",
+              "Strength": 20,
+              "Health": 23
+            },
+            {
+              "Name": "Gondor Soldier",
+              "Strength": 21,
+              "Health": 34
+            }
+          ]
+        }
+      ],
+      "Events": []
+    },
+    {
+      "Id": 4,
+      "Name": "edge4",
+      "Node1": 2,
+      "Node2": 4,
+      "Armies": [],
+      "Events": []
+    },
+    {
+      "Id": 5,
+      "Name": "edge5",
+      "Node1": 4,
+      "Node2": 1,
+      "Armies": [
+        {
+          "Faction": "Isengard",
+          "Team": 1,
+          "Units": [
+            {
+              "Name": "Uruk-hai",
+              "Strength": 22,
+              "Health": 7
+            },
+            {
+              "Name": "Warg Rider",
+              "Strength": 30,
+              "Health": 1
+            },
+            {
+              "Name": "Uruk Crossbowman",
+              "Strength": 27,
+              "Health": 22
+            },
+            {
+              "Name": "Warg Rider",
+              "Strength": 20,
+              "Health": 24
+            },
+            {
+              "Name": "Uruk Crossbowman",
+              "Strength": 26,
+              "Health": 21
+            },
+            {
+              "Name": "Uruk-hai",
+              "Strength": 23,
+              "Health": 30
+            }
+          ]
+        },
+        {
+          "Faction": "Mordor",
+          "Team": 1,
+          "Units": [
+            {
+              "Name": "Orc Warrior",
+              "Strength": 33,
+              "Health": 4
+            }
+          ]
+        },
+        {
+          "Faction": "Isengard",
+          "Team": 1,
+          "Units": [
+            {
+              "Name": "Warg Rider",
+              "Strength": 34,
+              "Health": 1
+            }
+          ]
+        }
+      ],
+      "Events": []
+    },
+    {
+      "Id": 6,
+      "Name": "edge6",
+      "Node1": 4,
+      "Node2": 3,
+      "Armies": [],
+      "Events": []
+    }
+  ]
+}
